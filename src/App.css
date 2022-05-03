@@ -1,0 +1,134 @@
+
+/*Search Bar CSS*/
+.wrapper{
+    max-width: 600px;
+    margin: 150px auto;
+}
+
+.wrapper .search-input{
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+    margin-top: 200px;
+  }
+
+  .search-input input{
+    height: 55px;
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+  }
+
+  .search-button{
+      width:10%;
+      float: left;
+
+  }
+
+  /*Bootstrap class for large buttons. Here we are just making the height accomodate our seach bar*/
+  .btn-lg{
+      height: 56px;
+  }
+
+  
+
+#login-section{
+    margin-top: -5px;
+    padding-bottom: 50px;
+}
+#row{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+
+
+#login-page{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; 
+}
+
+
+@media only screen and (max-width: 620px) {
+    #background{
+        display: none;
+        
+    }
+
+    body{
+        background: black;
+    }
+
+    /*Search Bar CSS*/
+    .wrapper{
+        max-width: 300px;
+        margin: 150px auto;
+        margin-left: 20px;
+    }
+
+    .wrapper .search-input{
+        background: #fff;
+        width: 100%;
+        border-radius: 5px;
+        position: relative;
+        box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+        margin-top: 200px;
+    }
+
+    .search-input input{
+        height: 55px;
+        width:90%;
+        outline: none;
+        border: none;
+        padding: 0 60px 0 20px;
+        font-size: 18px;
+        box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+        margin-left: auto;
+        margin-right: auto;
+        float:left;
+    }
+
+    .search-button{
+        width:10%;
+        float: left;
+
+    }
+    
+  }
+
+#loginHeader{
+    margin-left:60px;
+    margin-top: 70px;
+}
+
+#subHeader{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+
+
+#inputUsername, #inputPassword{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+  
+  
